@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.font-inter {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+}
+
+/* global styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1A0B2E;
+    color: #ffffff;
+}
+
+/* shared styles */
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 24px;
+}
+
+.gradient-ui {
+    background: linear-gradient(45deg, #F7E93F 0%, #FB09B4 51%, #9100F8 100%);
+}
+
+
+
+
+/* specific blocks */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 24px 0;
+
+}
+
+.logo {
+    font-size: 45;
+    font-weight: bold;
+    line-height: 1;
+}
+
+
+.logo-gradient {
+    display: inline-block;
+    background: linear-gradient(30deg, #F7E93F 0%, #FB09B4 51%, #9100F8 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+
+}
+
+
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 34px;
+}
+
+.nav-items {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.nav-items:hover {
+    color: lightgray;
+}
+
+
+.btn {
+    color: white;
+    padding: 12.5px 16px;
+    border-radius: 999px;
+    font-weight: 600;
+    cursor: pointer;
+    border: none;
+    font-family: inherit;
+}
