@@ -5,18 +5,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
-    <title>Document</title>
+    <title>TechWave Podcast</title>
 </head>
 
 <body class="font-inter">
     <nav class="navbar container">
         <h1 class="logo">Tech<span class="logo-gradient">Wave</span></h1>
-        <ul class="nav-links">
+        
+        <!-- Hamburger Menu Icon -->
+        <div class="hamburger" id="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+        <ul class="nav-links" id="navLinks">
             <li class="nav-items clickable">About</li>
             <li class="nav-items clickable">Episodes</li>
             <li class="nav-items clickable">Host</li>
+            <button class="btn btn-primary gradient-ui nav-subscribe-btn">Subscribe &#8594</button>
         </ul>
-        <button class="btn btn-primary gradient-ui">Subscribe</button>
+        
+        <button class="btn btn-primary gradient-ui desktop-subscribe">Subscribe <span class="arrow-icon">→</span></button>
     </nav>
 
 
@@ -132,7 +142,7 @@
                         <h3>Exclusive Interviews</h3>
                         <p>
                             Get unprecedented access to industry titans, startup founders, and tech visionaries.
-                            Our host secures exclusive conversations you won’t find anywhere else.
+                            Our host secures exclusive conversations you won't find anywhere else.
                         </p>
                     </div>
 
@@ -270,7 +280,7 @@
             </div>
 
             <p class="footer-copy">
-                <p>&copy; 2026 TechWave Podcast. All rights reserved.
+                &copy; 2026 TechWave Podcast. All rights reserved.
             </p>
 
         </div>
